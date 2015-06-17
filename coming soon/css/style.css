@@ -1,0 +1,501 @@
+/** Import CSS **/
+
+@import url("reset.css");
+@import url("fonts/font.css");
+
+/** Google Fonts **/
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900italic,400italic,600,600italic,700,700italic");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic");
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+
+/** Global Styles **/
+
+html
+{
+	height: 100%;
+	overflow: auto;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body
+{
+	font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #DDD;
+	background: #222 url("../images/bg-dark.png") repeat fixed center;
+}
+
+::selection { background: #ff9900; color: #FFF; }
+::-moz-selection { background: #ff9900; color: #FFF; }
+
+a
+{
+	color: #ff9900;
+	text-decoration: none;
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+	a:hover
+	{
+		color: #FFF;
+	}
+
+#patternoverlay
+{
+	background: url("../images/bg-faded.png") repeat;
+}
+	
+/** Colours **/
+
+.bggrey
+{
+	background: #111 url("../images/bg-dark.png") repeat;
+}
+
+/** Main Layout Styles **/
+
+.container
+{
+	width: 100%;
+	min-width: 280px;
+	text-align: center;
+}
+
+	/** Header Styles **/
+
+	#headercont
+	{
+		margin: 0 auto;
+		width: 80%;
+		max-width: 980px;
+		padding: 50px 0 25px 0;
+		text-shadow: 1px 1px 1px #000;
+	}
+	
+		#headercont h1
+		{
+			margin: 0 0 15px 0;
+			font-weight: 400;
+			font-size: 56px;
+			line-height: 56px;
+			letter-spacing: -1px;
+			color: #FFF;
+			font-family: "Lobster", Arial, Verdana, Helvetica, sans-serif;
+		}
+
+			#headercont h1 a
+			{
+				color: #ff9900;
+			}
+			
+				#headercont h1 a:hover
+				{
+					color: #FFF;
+				}
+
+		#headercont h2
+		{
+			margin: 0 0 15px 0;
+			font-size: 40px;
+			line-height: 40px;
+			font-weight: 300;
+			letter-spacing: -2px;
+			font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif;
+			color: #FFF;
+		}
+		
+			#headercont h2 span
+			{
+				font-weight: 600;
+			}
+
+	/** Main Body Styles **/
+
+	#maincont
+	{
+		margin: 0 auto;
+		width: 80%;
+		max-width: 980px;
+		padding: 50px 0;
+		line-height: 1.5em;
+		text-shadow: 1px 1px 1px #000;
+	}
+
+		#maincont p
+		{
+			margin: 0 0 20px 0;
+		}
+		
+			#maincont p.leftalign
+			{
+				text-align: left;
+			}
+		
+		#maincont ul, #maincont ol
+		{
+			margin: 0 0 20px 0;
+		}
+		
+			#maincont ul li, #maincont ol li
+			{
+				margin: 0 0 0 30px;
+			}
+			
+				#maincont ul li
+				{
+					list-style-type: circle;
+				}
+				
+				#maincont ol li
+				{
+					list-style-type: decimal;
+				}
+	
+		#maincont h1, #maincont h2, #maincont h3, #maincont h4
+		{
+			font-weight: 600;
+			font-size: 56px;
+			line-height: 56px;
+			font-family: "Source Sans Pro", Arial, Verdana, Helvetica, sans-serif;
+			color: #FFF;
+			letter-spacing: -1.4px;
+			margin: 0 0 20px 0;
+		}
+
+			#maincont h2
+			{
+				font-size: 40px;
+				line-height: 40px;
+			}
+			
+			#maincont h3
+			{
+				font-size: 30px;
+				line-height: 30px;
+				letter-spacing: -0.6px;
+			}
+			
+				#maincont h3.nomargin
+				{
+					margin: 0;
+				}
+			
+			#maincont h4
+			{
+				font-size: 26px;
+				line-height: 26px;
+				letter-spacing: -0.6px;
+			}
+		
+				#maincont hr
+				{
+					clear: both;
+					border: 0;
+					height: 0;
+					margin: 0 0 20px 0;
+					border-top: 2px dotted #444;
+				}
+				
+		/** Information Boxes **/
+		
+		#maincont #boxescont
+		{
+			width: 100%;
+			margin: 0 0 15px 0;
+		}
+		
+			#maincont #boxescont .box
+			{
+				float: left;
+				width: 21%;
+				margin: 0 2%;
+				font-size: 14px;
+				line-height: 18px;
+			}
+			
+				#maincont #boxescont .box p
+				{
+					margin-bottom: 10px;
+				}
+			
+				#maincont #boxescont .box p span
+				{
+					font-size: 56px;
+					color: #ff9900;
+				}
+				
+				#maincont #boxescont .box h4
+				{
+					margin-bottom: 10px;
+				}
+
+		/** Signup Box **/
+			
+		#maincont #signupform
+		{
+			margin: 0 auto;
+			width: 60%;
+		}
+		
+			#maincont #signupform p.success
+			{
+				padding: 10px 0 0 0;
+				margin: 0;
+			}
+
+			#maincont #signupform #searchBox
+			{
+				float: left;
+				width: 80%;
+			}
+			
+				#maincont #signupform #searchBox input
+				{
+					float: left;    
+					width: 100%;
+					height: 20px;
+					padding: 8px 0;
+					border: 2px solid #666;
+					color: #FFF;
+					border-right: 0;
+					text-indent: 10px;
+					font-family: inherit;
+					font-size: 14px;
+					background: #333;
+					
+					-moz-border-radius: 3px 0 0 3px;
+					-webkit-border-radius: 3px 0 0 3px;
+					border-radius: 3px 0 0 3px;
+				}
+				
+				#maincont #signupform #searchBox input:focus
+				{
+					outline: 0;
+					border: 2px solid #ff9900;
+					border-right: 0;
+				}
+
+			#maincont #signupform #searchSubmit
+			{
+				float: left;
+				width: 20%;
+			}
+			
+				#maincont #signupform #searchSubmit button
+				{
+					overflow: visible;
+					position: relative;
+					float: right;
+					border: 0;
+					padding: 0;
+					cursor: pointer;
+					height: 40px;
+					width: 100%;
+					font-family: inherit;
+					font-size: 14px;
+					font-weight: 300;
+					color: #FFF;
+					background: #ff9900;
+					text-transform: uppercase;
+					text-shadow: 1px 1px 1px #B78900;
+
+					-moz-border-radius: 0 3px 3px 0;
+					-webkit-border-radius: 0 3px 3px 0;
+					border-radius: 0 3px 3px 0;
+				}   
+
+				
+				#maincont #signupform #searchSubmit button:before
+				{
+					content: '';
+					position: absolute;
+					border-width: 8px 8px 8px 0;
+					border-style: solid solid solid none;
+					border-color: transparent #ff9900 transparent;
+					top: 12px;
+					left: -6px;
+				}
+
+				
+	/** Footer Styles **/
+
+	#footercont
+	{
+		margin: 0 auto;
+		width: 80%;
+		max-width: 980px;
+		padding: 40px 0;
+		line-height: 1.5em;
+		font-size: 13px;
+		font-weight: 400;
+		color: #CCC;
+		text-shadow: 1px 1px 1px #000;
+	}
+		
+		/** Social Media **/
+		
+		#footercont #socialmedia ul
+		{
+			margin: 0 0 20px 0;
+		}
+	
+		#footercont #socialmedia ul li
+		{
+			display: inline-block;
+			list-style-type: none;
+			margin: 0 10px;
+		}
+
+			#footercont #socialmedia ul li a
+			{
+				font-size: 22px;
+				color: #FFF;
+			}
+			
+				#footercont #socialmedia ul li a:hover
+				{
+					color: #ff9900;
+				}
+				
+		/** Latest Tweet **/
+			
+		#footercont #twittertweet
+		{
+			width: 100%;
+			color: #CCC;
+			font-size: 14px;
+			line-height: 1.5em;
+			font-style: italic;
+			margin: 0 0 20px 0;
+		}
+		
+			#footercont #twittertweet ul
+			{
+				margin: 0;
+			}
+		
+			#footercont #twittertweet ul.tweet_list li
+			{
+				padding: 0;
+				margin: 0 0 5px 0;
+				list-style-type: none;
+			}
+
+				#footercont #twittertweet a:hover
+				{
+					color: #FFF;
+				}
+
+/** Responsive Styles **/
+
+@media screen and (max-width: 768px)
+{
+
+	#headercont
+	{
+		padding: 20px 0 10px 0;
+	}
+	
+		#headercont h1 a span
+		{
+			display: block;
+		}
+	
+	/** Image Boxes **/
+	
+	#maincont #boxescont .box
+	{
+		width: 46%;
+		font-size: 13px;
+	}
+	
+		#maincont #boxescont .clearbox
+		{
+			clear: both;
+		}
+		
+			#maincont #boxescont .box h4 span
+			{
+				font-size: 44px;
+			}
+			
+	/** Signup Form **/
+			
+	#maincont #signupform
+	{
+		width: 80%;
+	}
+	
+}
+
+@media screen and (max-width: 480px)
+{
+
+	body
+	{
+		font-size: 13px;
+	}
+	
+	#headercont h1
+	{
+		font-size: 46px;
+		line-height: 46px;
+	}
+	
+	#headercont h2
+	{
+		font-size: 32px;
+		line-height: 32px;
+	}
+	
+	#maincont
+	{
+		line-height: 20px;
+	}
+	
+		#maincont h1, #maincont h2, #maincont h3, #maincont h4
+		{
+			font-size: 46px;
+			line-height: 46px;
+		}
+	
+			#maincont h2
+			{
+				font-size: 32px;
+				line-height: 32px;
+			}
+			
+			#maincont h3
+			{
+				font-size: 24px;
+				line-height: 24px;
+			}
+			
+			#maincont h4
+			{
+				font-size: 20px;
+				line-height: 20px;
+			}
+	
+	/** Signup Form **/
+			
+	#maincont #signupform
+	{
+		width: 96%;
+	}
+	
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+::selection { background: #4DA6FF; color: #FFF; }
+::-moz-selection { background: #4DA6FF; color: #FFF; }
+
+a { color: #4DA6FF; }
+
+#headercont h1 a
+{
+	color: #4DA6FF;
+}
+	
+#maincont #boxescont .box p span
+{
+	color: #4DA6FF;
+}
+
+#maincont #signupform #searchBox input:focus
+{
+	border: 2px solid #4DA6FF;
+}
+
+
+#maincont #signupform #searchSubmit button
+{
+	background: #4DA6FF;
+	text-shadow: 1px 1px 1px #3A80C6;
+}   
+
+#maincont #signupform #searchSubmit button:before
+{
+	border-color: transparent #4DA6FF transparent;
+}
+
+#footercont #socialmedia ul li a:hover
+{
+	color: #4DA6FF;
+}
