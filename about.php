@@ -23,49 +23,7 @@
 <body>
 
 	<header>
-		<div id="menu_bar">
-			<div class="container">
-				<div class="row">
-					<div class="span4">
-						<img src="images/logo.png" alt="">
-					</div>
-					<div class="span8">
-						<ul id="main_menu">
-							<li><a href="index.html"><i class="icomoon-home"></i>Home</a></li>
-							<li><a href="portfolio.html"><i class="icomoon-list"></i>Portfolio</a></li>
-							<li class="current_menu_ancestor"><a href="about.html"><i class="icomoon-bullhorn"></i>About us</a>
-								<ul>
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Sit praesentium cum</a></li>
-									<li><a href="#">Cum ipsa error dolor</a></li>
-									<li><a href="#">Optio ipsa quas et</a></li>
-									<li><a href="#">Aspernatur soluta</a></li>
-									<li><a href="#">Id ipsa minima quas</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor sit</a></li>
-											<li><a href="#">Sit praesentium cum</a></li>
-											<li><a href="#">Cum ipsa error dolor</a></li>
-											<li><a href="#">Optio ipsa quas et</a></li>
-											<li><a href="#">Aspernatur soluta</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="blog.html"><i class="icomoon-bubbles"></i>Blog</a></li>
-							<li><a href="contact.html"><i class="icomoon-envelop"></i>Contact</a></li>
-						</ul>
-						<select name="main_menu_select" id="main_menu_select">
-							<option value="index.html">Home</option>
-							<option value="portfolio.html">Portfolio</option>
-							<option value="about.html" selected>About us</option>
-							<option value="blog.html">Blog</option>
-							<option value="single.html">Single post</option>
-							<option value="contact.html">Contact</option>
-						</select>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'header.php';?>
 	</header>
 
 	<section id="page_header">
@@ -209,66 +167,7 @@
 	</section>
 
 	<footer>
-		<div id="footer_clients">
-			<div class="container clearfix">
-				<div class="fifth client"><img src="http://placehold.it/114x38" alt=""></div>
-				<div class="fifth client"><img src="http://placehold.it/114x38" alt=""></div>
-				<div class="fifth client"><img src="images/m_logo.jpg" alt=""></div>
-				<div class="fifth client"><img src="http://placehold.it/114x38" alt=""></div>
-				<div class="fifth client"><img src="http://placehold.it/114x38" alt=""></div>
-			</div>
-		</div>
-		<div id="footer_columns">
-			<div class="container">
-				<div class="row">
-					<div class="span4">
-						<h4>Contact information</h4>
-						<p>
-							<strong class="blue">Address:</strong> Paladium Center, Kapitána nálepku<br>
-							Bratislava 421 00, Slovak Republic, Europe<br><br>
-							<strong class="blue">Mobil:</strong> +421-904-300-55559<br>
-							<strong class="blue">Email:</strong> information@lipsumlorem.com<br>
-							<strong class="blue">Person:</strong> Peter Kincelovic
-						</p>
-
-					</div>
-					<div class="span4">
-						<h4>Newsletter and About us</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adng
-							elit. Donec et diam ac quam intedum vestibler
-							pulvinar. Pellentesque sodales varius mssa
-							vitae fauciusis mattis eu. Fusce ante turis
-						</p>
-						<form action="#" class="newsletter_signup">
-							<input type="text" name="email" placeholder="Enter your adress">
-							<a href="#" class="append submit">OK</a>
-						</form>
-					</div>
-					<div class="span4">
-						<img src="http://placehold.it/300x180" alt="">						
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="footer_copyright">
-			<div class="container">
-				<div class="row">
-					<div class="span8 copyright">
-						© 2013 Monogramtheme - clean and modern theme  <a href="#">|  all right reserved</a>  <a href="#">|  Site map</a>  <a href="#">|  Contact information</a>
-					</div>
-					<div class="span4 social">
-						<a href="#" class="hexagon_social"><i class="icomoon-facebook"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-linkedin"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-envelop"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-twitter"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-feed-2"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-google-plus"></i></a>
-						<a href="#" class="hexagon_social"><i class="icomoon-plus"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'footer.php';?>
 	</footer>
 
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>

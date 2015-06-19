@@ -21,68 +21,43 @@
 
 <script src="http://use.edgefonts.net/ubuntu:n4,i4,n7,i7,n3,i3,n5,i5:all.js"></script>
     
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+    
 </head>
 
 <body>
 
+	<header>
+        
+        <?php include 'header.php';?>
+        
+	</header>
+
+
+
+
+	<section id="testimonial" class="container">
+		<h2>What our clients say:</h2>
+		<p>
+			“Eoghan is very punctual, trustworthy and efficient, and carries out his work in a professional and timely manner. I have no hesitation in recommending him.”
+			<span>&mdash; Timothy Murphy, Cabinteely, Dublin 18</span>
+		</p>
+        
+		<p>
+			“Eoghan is very punctual, trustworthy and efficient, and carries out his work in a professional and timely manner. I have no hesitation in recommending him.”
+			<span>&mdash; Timothy Murphy, Cabinteely, Dublin 18</span>
+		</p>
+	</section>
+
 	<footer>
-		<div id="footer_clients">
-			<div class="container clearfix">
-				<div class="fifth client"><img src="images/RGI.jpg" alt="Registered Gas Installers"></div>
-				<div class="fifth client"><img src="images/SEAI_Logo.png" alt="SEAI Logo"></div>
-				<div class="fifth client"><img src="images/m_logo.jpg" alt="O'Connor Plumbing"></div>
-				<div class="fifth client"><img src="images/aphci.png" alt="APHCI Logo"></div>
-				<div class="fifth client"><img src="images/FETAC-Logo.png" alt="Fetac Logo"></div>
-			</div>
-		</div>
-		<div id="footer_columns">
-			<div class="container">
-				<div class="row">
-					<div class="span4">
-						<h4>Contact information</h4>
-						<p>
-							<strong class="blue">Address:</strong> 4 Bective Park<br>
-							Kilmessan, Co. Meath<br>
-							<strong class="blue">Mobile: </strong><a class="blue" href="tel:+353 86 809 7792">+353 86 809 7792</a><br>
-							<strong class="blue">Email: </strong> <a class="blue" href="mailto:info@oconnorplumbing.ie">info@oconnorplumbing.ie</a><br>
-						</p>
-
-					</div>
-					<div class="span4">
-						<h4>Registered Gas Installer</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adng
-							elit. Donec et diam ac quam intedum vestibler
-							pulvinar. Pellentesque sodales varius mssa
-							vitae fauciusis mattis eu. Fusce ante turis
-						</p>
-						
-					</div>
-					
-                    <div class="span4">
-						<h4>SEAI Grants Available</h4>
-						<p>
-							Did you know you can now get money back on a new boiler and new central heating installation? <a href="contact.html">Contact us</a> now for more information.
-						</p>
-						
-					</div>
-                    
-				</div>
-			</div>
-		</div>
-		<div id="footer_copyright">
-			<div class="container">
-				<div class="row">
-					<div class="span8 copyright">
-						© 2015 O'Connor Plumbing and Heating | Site by <a href="http://www.daraoconnor.com" target="_blank">Dara O'Connor</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'footer.php';?>
 	</footer>
-
-	
-
 
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type='text/javascript' src='js/jquery-1.9.1.min.js'></script>

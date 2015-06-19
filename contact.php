@@ -35,28 +35,68 @@ $(function(){
 
 	<header>
         
-        <div id="header"></div>
+        <?php include 'header.php';?>
         
 	</header>
 
+	
 
+	<section id="page_header">
+		
+		<div id="page_title">
+			<h1>Contact Us</h1>
+			<p>Fill in our online form, phone or email us</p>
+		</div>
+	</section>
 
+	<section id="contact_form" class="container">
+		<div class="row">
+			<div class="span9 form">
+				<h3>Feel free to contact us</h3>
+				<p>
+					Vestibulum sed facilisis velit. Integer in faucibus nibh. Suspendisse est tortor, consequat vitae pharetra et, tincidunt
+					et lorem. Sed nisi eros, eleifend ut lobortis eget, volutpat in augue. Nunc vehicula tincidunt nisl ut pretium. 
+				</p>
+				<form action="#">
+					<div class="row">
+						<div class="span4">
+							<input type="text" placeholder="Your name" name="contact-name" id="contact-name">
+							<input type="text" placeholder="Your email" name="contact-email" id="contact-email">
+							<input type="text" placeholder="Website" name="contact-web" id="contact-web">
+						</div>
+						<div class="span8">
+							<textarea name="contact-message" id="contact-message" placeholder="Message..."></textarea>
+						</div>
+					</div>
+					<a class="button submit">Send</a>
+				</form>
+				<div class="submit_note"></div>
+			</div>
+			<div class="span3 address">
+				<h3>Office address</h3>
+				<p>
+					4 Bective Park<br>
+					Kilmessan<br>
+					Co. Meath<br>
+                    Tel: <a href="tel:+353 86 809 7792">+353 86 809 7792</a><br>
+                    Email: <a href="mailto:info@oconnorplumbing.ie">info@oconnorplumbing.ie</a><br>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	
 
 	<section id="testimonial" class="container">
-		<h2>What our clients say:</h2>
+		<h2>Our client said:</h2>
 		<p>
-			“Eoghan is very punctual, trustworthy and efficient, and carries out his work in a professional and timely manner. I have no hesitation in recommending him.”
-			<span>&mdash; Timothy Murphy, Cabinteely, Dublin 18</span>
-		</p>
-        
-		<p>
-			“Eoghan is very punctual, trustworthy and efficient, and carries out his work in a professional and timely manner. I have no hesitation in recommending him.”
-			<span>&mdash; Timothy Murphy, Cabinteely, Dublin 18</span>
+			“Ut vitae lacinia est. Integer necmaro libero sed nibh cursus molestie. Vestibul loremus infota um lobortis elit nibh Ut sit amet turpis venenatis ficus velit tincidunt rhoncus sit amet sit amet sapien. Nullam sed ipsum et erat vestimul dignissim cursus non sit amet tortor.”
+			<span>- Peter kincel</span>
 		</p>
 	</section>
 
 	<footer>
-		<div id="footer"></div>
+		<?php include 'footer.php';?>
 	</footer>
 
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>

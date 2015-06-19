@@ -35,7 +35,7 @@ $(function(){
 
 	<header>
         
-        <div id="header"></div>
+        <?php include 'header.php';?>
         
 	</header>
 
@@ -101,7 +101,7 @@ $(function(){
 	</section>
 
 	<footer>
-		<div id="footer"></div>
+		<?php include 'footer.php';?>
 	</footer>
 
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
