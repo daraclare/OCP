@@ -21,13 +21,8 @@
 
 <script src="http://use.edgefonts.net/ubuntu:n4,i4,n7,i7,n3,i3,n5,i5:all.js"></script>
     
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ 
     
 </head>
 

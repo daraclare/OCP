@@ -108,9 +108,14 @@
 		color: #757575;
 	}
 
+  
+
+
 	.container{
 		width: 940px;
 		margin: 0 auto;
+        padding-top: 1em;
+        padding-bottom: 0px;
 	}
 
 	a{
@@ -139,6 +144,10 @@
 
 	p{
 		margin-bottom: 18px;
+        font-size: 1.4em;
+        font-weight: 300;
+        line-height: 1.4em;
+        font-family: Ubuntu;
 	}
 
 	ul,
@@ -169,7 +178,7 @@
 	}
 
 	h3{
-		font-size: 25px;
+		font-size: 31px;
 		line-height: 40px;
 		font-family: Oswald;
 		text-transform: uppercase;
@@ -179,6 +188,36 @@
 		text-align: center;
 		margin-bottom: 39px;
 	}
+
+  h4{
+		font-family: Oswald;
+		font-weight: 300;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+    blockquote{
+        font-family: Oswald;
+		font-weight: 100;
+		font-size: 24px;
+		color: #078dd2;
+		text-transform: uppercase;
+		line-height: 34px;
+        text-decoration: none;
+        padding-top: 1em;
+        padding-bottom: 0px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    hr{
+        max-width: 50%;
+        color: #041e2b;
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
 
 	strong,
 	.strong{
@@ -267,6 +306,7 @@
 /*-------- 02.1. Columns --------*/
 	.row{
 		width: 100%;
+        padding-bottom: 2em;
 	}
 
 	.row:before,
@@ -597,7 +637,10 @@
 /*-------- 04.2.  Callout --------*/
 	#callout{
 		text-align: center;
-		padding-bottom: 36px;
+		padding-bottom: 30px;
+        margin-bottom: 0px;
+        background: url("../images/border_shadow.png") center top no-repeat;
+        padding-top: 40px;
 	}
 
 	#callout h2{
@@ -605,12 +648,13 @@
 	}
 
 	#callout p{
-		font-size: 14px;
+		font-size: 18px;
 		font-family: Ubuntu;
 		font-weight: 300;
-		line-height: 23px;
-		color: #078dd2;
-		text-transform: uppercase;
+		line-height: 1.4em;
+		color: #041e2b;
+		text-transform: none;
+        padding-bottom: 1em;
 	}
 
 /*-------- 04.3.  Service boxes --------*/
@@ -821,21 +865,21 @@
 	}
 
 /*-------- 04.5.  Blog boxes --------*/
-	#blog_boxes{
+	#plumbing_services{
 		text-align: center;
 		margin-bottom: 41px;
         background: url("../images/border_shadow.png") center top no-repeat;
         padding-top: 47px;
-        padding-bottom: 31px;
+        padding-bottom: 0px;
 	}
 
-	#blog_boxes .blog_box{
+	#plumbing_services .blog_box{
 		padding: 0 25px;
 	}
 
-	#blog_boxes h4{
-		font-size: 15px;
+	#plumbing_services h4{
 		font-family: Oswald;
+        font-weight: 700;
 		color: #313131;
 		text-transform: uppercase;
 		margin-top: -20px;
@@ -843,15 +887,15 @@
 		padding: 0 20px;
 	}
 
-	#blog_boxes h4 a{
+	#plumbing_services h4 a{
 		color: #313131;
 	}
 
-	#blog_boxes h4:hover a{
+	#plumbing_services h4:hover a{
 		color: #078dd2;
 	}
 
-	#blog_boxes .post_date:before {
+	#plumbing_services .post_date:before {
 	    content: "";
 	    width: 0;
 	    height: 0;
@@ -863,7 +907,7 @@
 	    left: 0;
 	}
 
-	#blog_boxes .post_date {
+	#plumbing_services .post_date {
 	    margin-top: 14px;
 	    color: #fff;
 	    width: 48px;
@@ -878,11 +922,11 @@
 	    font-family: Oswald;
 	}
 
-	#blog_boxes .post_date:first-line {
+	#plumbing_services .post_date:first-line {
 	    line-height: 14px;
 	}
 
-	#blog_boxes .post_date:after {
+	#plumbing_services .post_date:after {
 	    content: "";
 	    width: 0;
 	    position: absolute;
@@ -893,6 +937,15 @@
 	    border-right: 24px solid transparent;
 	    z-index: -1;
 	}
+
+    .svg-icon {
+        width: 70%;
+        padding-bottom: 20px;
+}
+
+    .svg-icon:hover {
+         
+}
 
 /*-------- 04.6.  Testimonial --------*/
 	#testimonial{

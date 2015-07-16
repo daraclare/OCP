@@ -50,12 +50,7 @@
 					</div>
 					<div class="span4">
 						<h4>Registered Gas Installer</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adng
-							elit. Donec et diam ac quam intedum vestibler
-							pulvinar. Pellentesque sodales varius mssa
-							vitae fauciusis mattis eu. Fusce ante turis
-						</p>
+                        <p>For safety and reliability reasons, it is a legal imperative that all gas installers are registered with thr RGII. Please visit the <a href="http://www.rgii.ie/home/eoghan-o`connor-plumbing-heating.6532.html" target="_blank"> RGII website</a> to view details for O'Connor Plumbing as a register installer.</p>
 						
 					</div>
 					

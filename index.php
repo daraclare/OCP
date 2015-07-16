@@ -4,8 +4,8 @@
 <title>O'Connor Plumbing and Heating, Dublin &amp; Meath</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="Plumbing and heating services, boiler repairs, replacement and installation, bathroom refit and solar panels servicing Dublin and Meath">
-<meta name="keywords" content="plumber, central heating, bathroom fitting, emergency plumber, gas boiler services, Meath, Dublin">
+<meta name="description" content="Plumbing and heating services, boiler repairs, replacement and installation, bathroom fitting and solar panels servicing in Dublin and Meath">
+<meta name="keywords" content="plumber, plumbing, plumbers, boiler, central heating, bathroom fitting, emergency plumber, gas boiler services, Meath, Dublin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 		
@@ -21,13 +21,8 @@
 
 <script src="http://use.edgefonts.net/ubuntu:n4,i4,n7,i7,n3,i3,n5,i5:all.js"></script>
     
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
     
 </head>
 
@@ -41,82 +36,56 @@ $(function(){
 
 	<section id="callout" class="container">
 		<br>
-        <h2>Fully registered and qualified plumbing and heating services</h2>
-		<p>We are available for heating and boiler repairs, bathroom and shower room installations as well as emergency plumbing and Gas works. We now offer a 7 year warranty on parts and labour on all Worcester Bosch boiler installations.</p>
+        <h2>Fully registered and qualified plumbing &amp; heating services</h2>
+		<p>O'Connor Plumbing is a fully registered and qualified plumbing and heating business, proving plumbing and heating services such as boiler repairs and replacement, installation of boilers, kitchen and bathroom fitting, and solar panels installation and servicing in the greater Dublin and Meath area.</p>
+        <hr>
+         <blockquote>O'Connor Plumbing now offer a 7 year warranty on parts and labour on all Worcester Bosch boiler installations.</blockquote>
+       
 	</section>
 
-	<section id="service_boxes" class="container">
-		<div class="row">
-			<div class="span4 service_box">
-				<div class="service_box_image">
-					<div class="overlayed">
-						<img src="images/thermostat.png" alt="Theremostat icon">
-						<div class="overlay">
-							<a href="#" class="overlay-rectangle">More info</a>
-						</div>
-					</div>
-				</div>
-				<h4><a href="#">Boiler Services</a></h4>
-				<ul>
-				  <li>Lorem ipsum dolor sit consectetur<br>adipiscing elit loremus vestubul.</li>
-					<li>Omnis, magnam sint repellat ipsam beatae?</li>
-					<li>Dolor, asperiores nam culpa quia sapiente.</li>
-				</ul>
-			</div>
-			<div class="span4 service_box">
-				<div class="service_box_image">
-					<div class="overlayed">
-						<img src="images/thermostat.png" alt="Theremostat icon">
-						<div class="overlay">
-							<a href="#" class="overlay-rectangle">More info</a>
-						</div>
-					</div>
-				</div>
-				<h4><a href="#">Heating Systems</a></h4>
-				<ul>
-					<li>Lorem ipsum dolor sit amet, consectetur.</li>
-					<li>Ut provident asperiores incidunt quibusdam ratione!</li>
-					<li>Tempora labore dolorum natus sint perspiciatis.</li>
-				</ul>
-			</div>
-			<div class="span4 service_box">
-				<div class="service_box_image">
-					<div class="overlayed">
-						<img src="images/thermostat.png" alt="Theremostat icon">
-						<div class="overlay">
-							<a href="#" class="overlay-rectangle">More info</a>
-						</div>
-					</div>
-				</div>
-				<h4><a href="#">Bathroom Fitting</a></h4>
-				<ul>
-					<li>Lorem ipsum dolor sit amet, consectetur.</li>
-					<li>Ut provident asperiores incidunt quibusdam ratione!</li>
-					<li>Tempora labore dolorum natus sint perspiciatis.</li>
-				</ul>
-			</div>
-	</section>
 
-	<section id="blog_boxes" class="container">
-		<h3>Services</h3>
+	<section id="plumbing_services" class="container">
+        
+		<h3>What we do</h3>
+        
 		<div class="row">
 			<div class="span4 blog_box">
-				<img src="http://placehold.it/250x138" alt=""><br>
-				<span class="post_date">11-6<br>2013</span>
-				<h4><a href="#">Rerum, nam, libero error fuga qui consectetur adipisicing</a></h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nam, libero error fuga qui natus debitis harum assumenda distinctio veniam!</p>
+				<img class="svg-icon" src="images/250px-wide/plumbing.svg" alt="plumbing icon"><br>
+				<span><br></span>
+				<h4><a href="#">Plumbing</a></h4>
+				<p>Plumbing repairs and maintenance - maintenance to all sanitary ware (toilets, taps, etc.), replacement of gate-valves, stopcocks, ball valves, kitchen taps, basin taps and waste fittings and pipework.</p>
 			</div>
 			<div class="span4 blog_box">
-				<img src="http://placehold.it/250x138" alt=""><br>
-				<span class="post_date">11-6<br>2013</span>
-				<h4><a href="#">Sasperiores consectetur officiis fugiat molestiae</a></h4>
-				<p>Voluptate, aliquid facere quae quo asperiores consectetur officiis fugiat molestiae mollitia doloremque sit doloribus dolore iure possimus eum maiores id!</p>
+				<img class="svg-icon" src="images/250px-wide/bathrooms.svg" alt="bathroom icon"><br>
+				<span><br></span>
+				<h4><a href="#">Bathrooms</a></h4>
+				<p>Full bathroom renovations - complete bathroom fit outs including carpentry, tiling, electrics and plumbing, also a good time to add insulated boards to external walls in bathroom during works. </p>
 			</div>
 			<div class="span4 blog_box">
-				<img src="http://placehold.it/250x138" alt=""><br>
-				<span class="post_date">11-6<br>2013</span>
-				<h4><a href="#">Deleniti numquam necessitatibus adipisci</a></h4>
-				<p>Pariatur, fugit, aspernatur quo modi delectus deleniti numquam necessitatibus adipisci ducimus eaque velit nostrum incidunt doloremque ipsa natus harum optio.</p>
+				<img class="svg-icon" src="images/250px-wide/kitchen.svg" alt="plumbing icon"><br>
+				<span><br></span>
+				<h4><a href="#">Kitchen</a></h4>
+				<p>Gas cooker installation - installation of free standing gas cookers, gas hobs built in ovens and range cookers including free gas safety and fitting of carbon monoxide alarms.</p>
+			</div>
+		</div>
+        <div class="row">
+			<div  class="span4 blog_box">
+				<img class="svg-icon" src="images/250px-wide/gas-oil.svg" alt="plumbing icon"><br>
+				<span><br></span>
+				<h4><a href="#">Gas/Oil</a></h4>
+				<p>Boiler Installation, repair and servicing. Installation of modern fuel efficient condensing A rated oil/gas boilers as well as gas safety checks.</p>
+			</div>
+			<div class="span4 blog_box">
+				<img class="svg-icon" src="images/250px-wide/heating.svg" alt="plumbing icon"><br>
+				<span><br></span>
+				<h4><a href="#">Heating</a></h4>
+				<p>Radiators - upgrading/replacement to more efficient quicker heat up time radiators and fitting of thermistatic valves for individual temp control in each room.</p>
+			</div>
+			<div class="span4 blog_box">
+				<img class="svg-icon" src="images/250px-wide/grants.svg" alt="plumbing icon"><br>
+				<span><br></span>
+				<h4><a href="#">Grants</a></h4>
+				<p>SEAI grants for installation of hot water solar installation for free hot water, tax back on plumbng repairs, interest relief on loans, A-rated Boiler upgrades and solar panels.</p>
 			</div>
 		</div>
 	</section>

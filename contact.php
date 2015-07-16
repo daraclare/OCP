@@ -22,12 +22,7 @@
 <script src="http://use.edgefonts.net/ubuntu:n4,i4,n7,i7,n3,i3,n5,i5:all.js"></script>
     
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
+
     
 </head>
 
@@ -74,8 +69,7 @@ $(function(){
 			</div>
 			<div class="span3 address">
 				<h3>Office address</h3>
-				<p>
-					4 Bective Park<br>
+				<p> 114 Rath Lodge<br>
 					Kilmessan<br>
 					Co. Meath<br>
                     Tel: <a href="tel:+353 86 809 7792">+353 86 809 7792</a><br>
