@@ -224,6 +224,17 @@
 		font-weight: bold;
 	}
 
+    .blue2white{
+        color: #078dd2;
+    }
+    .blue2white:link{
+        color: #078dd2;
+    }
+
+    .blue2white:hover{
+        color: #ffffff;
+    }
+
 	.blue{
 		color: #2498d4;
 	}
@@ -235,9 +246,9 @@
 
 	.featured{
 		color: #2498d4;
-		text-transform: uppercase;
+		text-transform: none;
 		font-family: Ubuntu;
-		font-size: 14px;
+		font-size: 1.6em;
 	}
 
 	.button{
@@ -992,12 +1003,12 @@
 	#tablet_right h2{
 		line-height: 37px;
 		margin-bottom: 16px;
-		margin-top: 60px;
+		margin-top: 0px;
 	}
 
 	#tablet_left .featured,
 	#tablet_right .featured{
-		line-height: 22px;
+        line-height: 1.4em;
 		margin-bottom: 14px;
 	}
 
@@ -1145,6 +1156,8 @@
 
 	#contact_form .button{
 		margin-top: 10px;
+        font-size: 1.4em;
+        font-weight: 100;
 	}
 
 	#contact_form p{
@@ -1294,8 +1307,8 @@
 		height: 170px;
 		background-color: #289cd8;
 		position: relative;
-		border-bottom: 1px solid #fafafa;
-		margin-bottom: 64px;
+		border-bottom: 0px solid #fafafa;
+		margin-bottom: 0px;
 	}
 
 	#page_heading_image{

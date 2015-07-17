@@ -34,16 +34,16 @@
 					</div>
 					<div class="span8">
 						<ul id="main_menu">
-							<li><a href="index.php"><i class="icomoon-home"></i>Home</a></li>
-							<li><a href="services.php"><i class="icomoon-list"></i>Services</a></li>
-							<li><a href="testimonials.php"><i class="icomoon-bubbles"></i>Testimonials</a></li>
-							<li><a href="contact.php"><i class="icomoon-envelop"></i>Contact</a></li>
+							<li><a href="index.html"><i class="icomoon-home"></i>Home</a></li>
+							<li><a href="services.html"><i class="icomoon-list"></i>Services</a></li>
+							<li><a href="testimonials.html"><i class="icomoon-bubbles"></i>Testimonials</a></li>
+							<li><a href="contact.html"><i class="icomoon-envelop"></i>Contact</a></li>
 						</ul>
 						<select name="main_menu_select" id="main_menu_select">
-							<option value="index.php" selected>Home</option>
-							<option value="services.php">Services</option>
-							<option value="testimonials.php">Testimonials</option>
-							<option value="contact.php">Contact</option>
+							<option value="index.html" selected>Home</option>
+							<option value="services.html">Services</option>
+							<option value="testimonials.html">Testimonials</option>
+							<option value="contact.html">Contact</option>
 						</select>
 					</div>
 				</div>
