@@ -59,49 +59,17 @@
 	<section id="page_header">
 		
 		<div id="page_title">
-			<h1>Contact Us</h1>
-			<p>Fill in our online form, phone or email us</p>
-		</div>
-	</section>
-
-	<section id="contact_form" class="container">
-		<div class="row">
-			<div class="span9 form">
-				<h3>Feel free to contact us</h3>
-				<p>O'Connor Plumbing and Heating is located in Meath, and works throughout the greater Dublin and Meath area. Please contact us using the form below, or contact us by phone or email.</p>
-				<form action="#">
-					<div class="row">
-						<div class="span4">
-							<input type="text" placeholder="Your name" name="contact-name" id="contact-name">
-							<input type="text" placeholder="Your email" name="contact-email" id="contact-email">
-							<input type="text" placeholder="Your mobile" name="contact-web" id="contact-web">
-						</div>
-						<div class="span8">
-							<textarea name="contact-message" id="contact-message" placeholder="Message..."></textarea>
-						</div>
-					</div>
-					<a class="button submit">Send</a>
-				</form>
-				<div class="submit_note"></div>
-			</div>
-			<div class="span3 address">
-				<h3>Office<br>address</h3>
-				<p>114 Rath Lodge<br>
-					Ashbourne, Co. Meath<br>
-                    T: <a class="blue2white" href="tel:+353 86 809 7792">+353 86 8097792</a><br>
-                    E: <a class="blue2white" href="mailto:info@oconnorplumbing.ie">info@oconnorplumbing.ie</a><br>
-				</p>
-			</div>
+			<h1>Message sent</h1>
 		</div>
 	</section>
 
 	
 
+	
+
 	<section id="testimonial" class="container">
-		<h2>Our clients say:</h2>
-		<p>“Eoghan is very punctual, trustworthy and efficient, and carries out his work in a professional and timely manner. I have no hesitation in recommending him.”
-			<span>— TIMOTHY MURPHY, CABINTEELY, DUBLIN 18</span>
-		</p>
+		<h2>Thank you, we will be in touch shortly</h2>
+		
 	</section>
 
 	<footer>

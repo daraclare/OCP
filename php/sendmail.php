@@ -1,6 +1,6 @@
 <?php
-$send_to = "your_email_email_address_here";  /* Your email address here */
-$subject = "Email from your site"; /* Subject of message here */
+$send_to = "daraclare@gmail.com";  /* Your email address here */
+$subject = "Online Form"; /* Subject of message here */
 
 
 $error_open='<div class="alert-warning">';
@@ -22,8 +22,8 @@ if($_POST['contact-message']=='')
 	$error[] = 'contact-message';
 if($_POST['contact-name']=='')
 	$error[] = 'contact-name';
-if($_POST['contact-web']=='')
-	$error[] = 'contact-web';
+if($_POST['contact-number']=='')
+	$error[] = 'contact-number';
 if(!ABdevFW_email_validation($_POST['contact-email']))
 	$error[] = 'contact-email';
 
@@ -35,8 +35,8 @@ if ($error != ''){
 else {
 	// everything ok - send mail
 	$name = htmlentities($_POST['contact-name']);
-	$web = htmlentities($_POST['contact-web']);
-	$message = "Name: $name\nWeb: $web\nEmail: ".$_POST['contact-email']."\n"."Sent you a message: \n".htmlentities($_POST['contact-message']);
+	$number = htmlentities($_POST['contact-number']);
+	$message = "Name: $name\nPhone: $number\nEmail: ".$_POST['contact-email']."\n"."Sent you a message: \n".htmlentities($_POST['contact-message']);
 	mail($send_to, $subject, $message);
 
 	echo 'OK';

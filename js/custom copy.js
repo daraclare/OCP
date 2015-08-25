@@ -74,7 +74,30 @@ jQuery(document).ready(function($) {
       }
     });
 
-   
+    // Google map
+    $('#map').gMap({
+        maptype: 'ROADMAP',
+        zoom: 16,
+        // position at will map be centered (lat and long or address)
+        latitude: 53.561032,
+        longitude: -6.660445,
+        // address:'Kilmessan, Meath',
+        scrollwheel: false,
+        markers: [
+            {   
+                //position of marker (lat and long or address)
+                // latitude: 53.561032,
+                // longitude: -6.660445,
+                address: '4 Bective Park, Kilmessan, Meath',
+                html: '<p style="text-align: center;"><strong>Automotive Retail and Services</strong><br>Our Street 555, Our City, State</p>',
+                icon: {
+                    image: "images/gmap-pin.png",
+                    iconsize: [105, 105],
+                    iconanchor: [52,58]
+                }
+            }
+        ]
+    });
 
     $(".submit").click(function () {
         $(this).closest("form").submit();
@@ -84,6 +107,7 @@ jQuery(document).ready(function($) {
         $(this).closest("form").submit();
     });
 
+    $('input, textarea').placeholder();
 
     //Contact form
     jQuery("#contact_form form").submit(function() {
